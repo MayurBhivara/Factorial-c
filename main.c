@@ -4,7 +4,7 @@
 int factorial(int a)
 {
   int b=1, i=0;
-  for(i=a;i>0;i--){
+  for(i=1;i<=a;i++){
   b=b*i;
   }
  return b;
